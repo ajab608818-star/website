@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس - ډیجټل والیټ</title>
+    <link rel="stylesheet" href="csspart.css">
+</head>
+<body>
+
+<!-- Header -->
+ <header>
+        <div class="container header-container">
+           <div class="logo"><a href="home.html">ډیجټل والیټ</a></div>
+           <div class="menu-toggle">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">کورپاڼه</a></li>
+                    <li><a href="home.html#features">ځانګړتیاوې</a></li>
+                    <li><a href="home.html#demo">ډیمو</a></li>
+                    <li><a href="contact.html">اړیکه نیول</a></li>
+                    <li><a href="about.html">زموږ په اړه</a></li>
+                    <li><a href="login.html" class="btn">ننوتل</a></li>
+                    <li><a href="signup.html" class="btn btn-primary">راجسټر</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+<section class="contact-section">
+    <div class="container contact-container">
+
+        <div class="contact-info">
+            <h2>زموږ سره اړیکه نیول </h2>
+            <p>که کومه پوښتنه لرئ، لاندې فورم ډک کړئ.</p>
+
+            <div class="info-box">
+                <p>📍 پته: کندهار، افغانستان</p>
+                <p>📞 تلیفون: 0700608818</p>
+                <p><a href="mailto:ajab608818@gmail.com">✉️ ایمیل: ajab608818@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form>
+                <div class="form-group">
+                    <label>نوم</label>
+                    <input type="text" placeholder="ستاسو نوم" required>
+                </div>
+
+                <div class="form-group">
+                    <label>ایمیل</label>
+                    <input type="email" placeholder="ستاسو ایمیل" required>
+                </div>
+
+                <div class="form-group">
+                    <label>پیغام</label>
+                    <textarea placeholder="خپل پیغام ولیکئ" rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                   لطفاً پیغام واستوئ 
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>د E-Wallet سیستم</h3>
+                <p>موږ سره اړیکه ونیسئ او خپل مالي فعالیتونه په خوندي ډول مدیریت کړئ.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>اړیکې</h3>
+                <ul>
+                    <li><a href="#">کور پاڼه</a></li>
+                    <li><a href="#">فیچرونه</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">د کاروونکي ملاتړ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section social">
+                <h3>ټولنیزې شبکې</h3>
+                <a href="#"><img src="./facebook - Copy.png" alt="Facebook"></a>
+                <a href="#"><img src="./fruiteka.css" alt="Twitter"></a>
+                <a href="#"><img src="./3d-linkedin-logo-icon-isolated-on-transparent-background-free-png.png" alt="Instagram"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2026 E-Wallet. ټول حقوق محفوظ دي.
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector("header nav");
+
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+</script>
+
+
+
+</body>
+</html>

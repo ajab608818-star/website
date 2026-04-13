@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ps" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راجسټر - ډیجټل والیټ</title>
+    <link rel="stylesheet" href="csspart.css">
+</head>
+<body>
+
+
+
+ <header>
+        <div class="container header-container">
+            <div class="logo"><a href="home.html">ډیجټل والیټ</a></div>
+            <div class="menu-toggle">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">کورپاڼه</a></li>
+                    <li><a href="home.html#features">ځانګړتیاوې</a></li>
+                    <li><a href="home.html#demo">ډیمو</a></li>
+                    <li><a href="contact.html">اړیکه نیول</a></li>
+                    <li><a href="about.html">زموږ په اړه</a></li>
+                    <li><a href="login.html" class="btn">ننوتل</a></li>
+                    <li><a href="signup.html" class="btn btn-primary">راجسټر</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+
+<section class="signup-section">
+    <div class="container signup-container">
+        <div class="signup-box">
+            <h2>راجسټر</h2>
+            <p>خپل اکاونټ جوړ کړئ او د ډیجټل والیټ خدماتو څخه استفاده وکړئ.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">نوم او تخلص</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="ستاسو بشپړ نوم ولیکئ" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">ایمیل</label>
+                    <input type="email" id="email" name="email" placeholder="ستاسو ایمیل ولیکئ" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">پاسورډ</label>
+                    <input type="password" id="password" name="password" placeholder="پاسورډ دننه کړئ" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">پاسورډ تایید کړئ</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="پاسورډ بیا دننه کړئ" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary">راجسټر</button>
+                <p class="login-text">اکاونټ لرئ؟ <a href="login.html">ننوتل</a></p>
+            </form>
+        </div>
+
+        <div class="signup-image">
+            <img src="./logup.png" alt="Signup Illustration">
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>د E-Wallet سیستم</h3>
+                <p>موږ سره اړیکه ونیسئ او خپل مالي فعالیتونه په خوندي ډول مدیریت کړئ.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>اړیکې</h3>
+                <ul>
+                    <li><a href="#">کور پاڼه</a></li>
+                    <li><a href="#">فیچرونه</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">د کاروونکي ملاتړ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section social">
+                <h3>ټولنیزې شبکې</h3>
+                <a href="#"><img src="./facebook - Copy.png" alt="Facebook"></a>
+                <a href="#"><img src="./fruiteka.pmg" alt="Twitter"></a>
+                <a href="#"><img src="./3d-linkedin-logo-icon-isolated-on-transparent-background-free-png.png" alt="Instagram"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; 2026 E-Wallet. ټول حقوق محفوظ دي.
+        </div>
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector("header nav");
+
+toggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
+</script>
+
+</body>
+</html>
